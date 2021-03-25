@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family:verdana;
+	font-size:12px;	
+	background-color:#ededed;
+	margin:0;
+}
+
+table
+{
+	background-color:white;
+}
+
+/*header section */
+
+.header 
+{
+	border-top-style:solid;
+	border-top-color:#f76841;
+	border-top-width:5px;	
+	box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 11px 1px;
+}
+
+
+.title
+{
+	color:#f76841;
+	font-weight:bold;
+	font-size:32px;
+	font-family:"Comic Sans MS", cursive;
+	line-height:60px;
+}
+
+.topcorner
+{
+	background-color:#f76841;
+	float:right;
+	border-bottom-left-radius:60px;
+	width:20px;
+	height:40px;
+	padding:0;
+	margin:0;
+	line-height:0px;
+}
+
+
+
+/* header ends here */
+
+/*menus starts here */
+
+.menus
+{
+	box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 11px 1px;
+	height:35px;
+	background-color:#f76841;
+	color:#fecb00;
+}
+
+.menus a
+{
+	text-decoration:none;
+	color:#fff;
+	display:inline-block;
+	width:80px;
+	font-size:14px;	
+	position:relative;	
+	-webkit-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+	cursor:pointer;
+}
+
+.menus a:hover
+{
+	
+	-webkit-transform:rotate(360deg);
+}
+
+
+#content
+{
+	box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 11px 1px;
+}
+
+
+#footer
+{
+	background-color:#f76841;
+	color:white;
+	height:45px;	
+	font-weight:bolder;
+}
+/*profile header*/
+.btn
+{
+	background:#f76841;
+	color:white;
+	font-weight:bolder;
+	border:none;
+	padding:4px;
+	height:31px;
+	cursor:pointer;
+	width:100px;
+}
+.btn:hover
+{
+		text-decoration:underline;
+}
+#cid
+{
+	display:none;
+}
+#aid
+{
+	display:none;
+}
+#acid
+{
+	display:none;
+}
+#ccid
+{
+	display:none;
+}
+
+/*sign in textbox && submit  buttonn*/
+.txt
+{	
+	border:solid;
+	border-color:#ccc;
+	height:25px;
+	width:220px;
+	padding:4px;
+	border-width:thin;
+}
+.but
+{
+	background-color:#f76841;
+	font-weight:bolder;
+	color:white;
+	cursor:pointer;
+	padding:5px;
+	border:0;
+	height:35px;
+	width:180px;
+}
+.but:hover
+{
+	text-decoration:underline;
+	border-radius:4px;
+}
+/*admin pannel */
+.txt1
+{	
+	border:solid;
+	border-color:#ccc;
+	height:20px;
+	width:220px;
+	padding:4px;
+	border-width:thin;
+}
+.but1
+{
+	background-color:#f76841;
+	font-weight:bolder;
+	color:white;
+	cursor:pointer;
+	padding:5px;
+	border:0;
+	height:30px;
+	width:100px;
+}
+.but1:hover
+{
+	text-decoration:underline;
+	border-radius:4px;
+}
+
+/* Timer Loading */
+
+.time
+{
+	height:50px;
+	width:120px;
+	border:solid;
+	background-color:#f76841;
+	color:#FFF;
+	font-weight:bolder;
+	font-size:36px;
+	position:fixed;
+	left:73%;
+	box-shadow:0px 0px 12px #f76841;
+}
